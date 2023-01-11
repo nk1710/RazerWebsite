@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search{
+   display: inline;
+   /* position: relative; */
+   width: 20px;
+   height: 20px;
+  
+}
+
+nav{
+    background-color: #212121;
+    height: 60px;
+    font-weight: 300;
+}
+.nav-items{
+
+}
+
+.logo-div{
+    display: inline-block;
+    position: relative;
+    top: 0.7rem;
+}
+.rightItems{
+    margin-left: 8rem;
+    display: inline-flex;
+    gap: 50px;
+}
+.undernavi{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin-left: 5.1rem;
+}
+.center{
+    position: relative;
+    top: 0;left: 0;right: 0;bottom: 0;
+    margin: auto
+}
+.link{
+    color: white;
+    font-size: 16px;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 4rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+/* .undernavi2{
+    color: white;
+    background-color: grey;
+    position: relative;
+    top: 25px;
+    display: flex;
+    text-align: center;
+    height: 45px;
+    width: 100em;
+} */
+.greyblock{
+    background-color: gray;
+    height: 6vh;
+    width: 100vw;
+    border-top: 2px solid #44d62c;
+}
+.undergrey{
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    font-size: medium;
+    color: #f4f4f4; 
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1px;
+}
+.shopnow {
+    color: #eee;
+    font-size: 14px;
+    font-weight: bold;   
+}
+.firstbg {
+    background-color: black;
+    height: 700px;
+    width: 1349px;
+
+}
