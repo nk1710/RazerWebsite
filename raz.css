@@ -138,40 +138,233 @@ a{
 width: 84em;
 }
 .second{
+    background: url(razer-hammerhead-hyperspeed-hero.jpg);
 background-color: #44d62c;
     position: relative;
   
     width: 84.3rem;
-    height: 33rem;
+    height: 42rem;
+    z-index: -1;
    
 
 }
-.second img{
-    width: 100%;
-    height:33rem ;
-    display: block;
-}
 
 
-.TEXT{
-position: absolute;
-top:15px;
-left: 15px;
-width: 100%;
-font-size: xx-large;
+
+.text{
+ position: relative;
+/* top:1em; */
+left: 8em;
+top: 1.5em;
+color: white;
+font-size: 45px;
 height: 54px;
+/* width: 54EM; */
 padding-bottom: 100%;
 display: flex;
-justify-content: center;
+flex-direction: row; 
+z-index: 1;
+font-weight: bolder;
+
+
+
 }
-.c{
+
+
+.thirdbg{
+    background-color: rgb(37, 36, 36);
+    height: 700px;
+    width: 1349px;
+    background: url(razer-kiyo-pro-ultra-hero-desktop.jpg);
+    border-bottom: 12px solid rgb(53, 51, 51);
+    z-index: -1;
+}
+
+    
+
+
+
+.car{
+
+   background: url("razer-enki-pro-automobili-lamborghini-hero-desktop.jpg");
+   background-color: rgb(37, 36, 36);
+   height: 700px;
+   width: 1349px;
+
+   border-bottom: 12px solid rgb(53, 51, 51);
+   z-index: -1;
+   position: relative;
+   
+   line-height: 9;
+   
+   
+}
+.undercar{
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    /* font-size: medium; */
+    /* color: #f4f4f4;  */
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: BOLDER;
+    line-height: 3px;
     position: relative;
-    left: em;
+    top: 40PX;
+    left:8em;
+}
+
+
+
+.bgg{
+    background: url("razer-wolverine-v2-pro-hyperspeed-wireless-desktop.jpg");
+    background-color: rgb(223, 21, 21);
+    background-color: #44d62c;
+    height: 700px;
+    width: 560px;
+    display: inline-block;
  
-}
-.d{
+   background-repeat: no-repeat;
+    border-bottom: 12px solid rgb(53, 51, 51);
+    z-index: -1;
     position: relative;
-    top: 2em;
-    left: 0em;
-    /* width: 0rem; */
+    
+    line-height: 2;
+    
 }
+
+.spex{
+    /* border-bottom: 12px solid rgb(53, 51, 51); */
+    /* background: url("razer-wolverine-v2-pro-hyperspeed-wireless-desktop.jpg"); */
+    /* display: inline-block; */
+    height: 700px;
+    width: 560px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    /* font-size: medium; */
+    /* color: #f4f4f4;  */
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: BOLDER;
+    line-height: 3px;
+    position: relative;
+    top: 40PX;
+    left:1PX;
+  
+    /* border-bottom: 12px solid rgb(53, 51, 51);
+    border-right: 12px solid rgb(53, 51, 51); */
+    
+}
+.niche{
+/* position: relative; */
+/* line-break: 2; */
+right: 55
+}
+
+ 
+ .mou{
+    background: url("spe.jpg");
+    width: 41rem;
+    height: 33.4rem; 
+    border-bottom: 12px solid #353333;
+    display: inline-block;
+    height: 44rem;
+    width: 30em;
+    position: relative;
+    left: 35em;
+  
+    border-bottom: 12px solid rgb(53, 51, 51);
+    /* border-right: 12px solid rgb(53, 51, 51); */
+    border-left: 12px solid rgb(53, 51, 51);
+ }
+
+ /* .bgg{
+    background: color #353333 ; */
+ 
+ .mobo{
+    background-color: rgb(37, 36, 36);
+    /* height: 32em;
+    width: 42em; */
+    /* background: url(images.jpg); 
+    background-repeat: no-repeat; */
+    border-bottom: 12px solid rgb(53, 51, 51);
+    display: inline-block;
+  
+    border-bottom: 12px solid rgb(53, 51, 51);
+ }
+ .mobo img{
+    width: 84.3rem;
+    height: 33rem;
+
+ }
+ .front{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    /* font-size: medium; */
+    /* color: #f4f4f4;  */
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: BOLDER;
+    line-height: 3px;
+    position: relative;
+    top: 40PX;
+    left: 7em;
+
+ }
+ .underfront{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    /* font-size: medium; */
+    /* color: #f4f4f4;  */
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 1px;
+    position: relative;
+    top: 50px;
+    right: 18em;
+ }
+
+ .underrazer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    /* font-size: medium; */
+    /* color: #f4f4f4;  */
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1px;
+    position: relative;
+    top: 75PX;
+    right: 28em;
+ }
+
+ .qq{
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    /* font-size: medium; */
+    /* color: #f4f4f4;  */
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 1px;
+    position: relative;
+    top: 50px;
+    right: 19em;
+    
+
+ }
