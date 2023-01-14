@@ -1,6 +1,11 @@
+body{
+    overflow-x: hidden;
+}
 .headphone{
     position:absolute;
-    top: 10rem;
+    /* top: 10rem; */
+    /* bottom: 0; */
+    top: 3rem;
     /* bottom: m; */
     left: 22em;
     color: white;
@@ -11,12 +16,12 @@
 .subtitle{
     position: relative;
     top: 1rem;
-    left: 4em;
+    left: 8em;
 
 }
 .CAMERA{
     position: absolute;
-    top: 60rem;
+    top: 1rem;
     /* bottom: 28em; */
     left: 22em;
     color: white;
@@ -25,16 +30,16 @@
 }
 .subtitle2{
     font-weight: lighter;
+    position: relative;
+    left: 10rem;
 }
 .ultra{
     font-size: 4em;
-    position: relative;
-    bottom: 39px;
-}
+    /* position: relative;
+    bottom: 15rem;
+    left: 15rem;
+} */}
 .largest{
-    position: relative;
-   bottom: 1em;
-    left: 4em;
     font-size: 22px;
  }
 .EDGE{
@@ -44,22 +49,24 @@
     margin-left: 6rem;
 } 
 
-.red{
+.red,.lambo{
     position: relative;
-    /* top: 182em; */
-    bottom: 29em;
-    left: 11em;
+    bottom: 45em;
+    left: 27em;
     color: white;
     font-weight: bolder;
     font-size: 1rem;
     display: inline-block;
 }
+.lambo{
+    position: absolute;
+    bottom: 0;
+}
 .EDITION{
     position: relative;
-  bottom: 2EM;
-    left: 2em;
     font-size: x-large;
     font-weight: lighter;
+    left: 3rem;
 }
 .right-grid{
     position: relative;
@@ -69,16 +76,6 @@
     left: 11rem;
     font-weight: bold;
 }
-/* .learnmore3{
-    position: relative;
-    bottom: 9rem;
-    left: 11em;
-}
-.buy3{
-    position: relative;
-    bottom: 9rem;
-    left: 12em;
-} */
 .link-div{
     position: relative;
     top: 0rem;
@@ -104,4 +101,32 @@
 
 .center-align{
     margin-left: 15rem;
+}
+
+.center-align2{
+    margin-left: 10rem;
+}
+.center-align3{
+    margin-left: 11rem;
+}
+.left-grid{
+    bottom: 29em;
+    left: 10em;
+}
+.console{
+    color: #ffffff;
+    position: absolute;
+    top: 2rem;
+    left: 22rem;
+}
+.small-laptop{
+    height: 18rem;
+    width: 46rem;
+    position: relative;
+    top: 16rem;
+    left: 19rem;
+    box-shadow: inset 10px 10px 40px #17181A;
+}
+.LAPTOP-TOP{
+    left: 23em;
 }
