@@ -1,384 +1,107 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.search{
-   display: inline;
-   /* position: relative; */
-   width: 20px;
-   height: 20px;
-  
-}
-
-nav{
-    background-color: #212121;
-    height: 60px;
-    font-weight: 300;
-}
-.nav-items{
-
-}
-
-.logo-div{
-    display: inline-block;
-    position: relative;
-    top: 0.7rem;
-}
-.rightItems{
-    margin-left: 8rem;
-    display: inline-flex;
-    gap: 50px;
-}
-.undernavi{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 60%;
-    margin-left: 5.1rem;
-}
-.center{
-    position: relative;
-    top: 0;left: 0;right: 0;bottom: 0;
-    margin: auto
-}
-.link{
-    color: white;
-    font-size: 16px;
-
-}
-.logo{
-    height: 40px;
-    width: 40px;
-    margin-left: 4rem;
-}
-
-
-a{
-    text-decoration: none;
-}
-/* .undernavi2{
-    color: white;
-    background-color: grey;
-    position: relative;
-    top: 25px;
-    display: flex;
-    text-align: center;
-    height: 45px;
-    width: 100em;
-} */
-.greyblock{
-    background-color: #808080;
-    height: 6vh;
-    width: 98.vw;
-    border-top: 2px solid #44d62c;
-}
-.undergrey{
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    font-size: medium;
-    color: #f4f4f4; 
-    margin: 0 auto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1px;
-}
-.shopnow {
-    color: #eee;
-    font-size: 14px;
-    font-weight: bold;   
-}
-.firstbg {
-    background-color: rgb(37, 36, 36);
-    height: 700px;
-    width: 1349px;
-    
-    border-bottom: 12px solid rgb(53, 51, 51);
-}
-.BLADE{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 45px;
-    font-weight: BOLDER;
-    line-height: 1px;
-    position: relative;
-    top: 60PX;
-}
-.REGISTER{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 25px;
-    font-weight: normal;
-    line-height: 1px;
-    position: relative;
-    top: 75PX;
-}
-
-.lap{
-    background-color: black;
-    height: 290px;
-    width: 277.5px;
-    position: relative;
-    top: 140px;
-    left: 2px;
-    display: inline;
-}
-.lap img{
-width: 84em;
-}
-.second{
-    background: url(razer-hammerhead-hyperspeed-hero.jpg);
-background-color: #44d62c;
-    position: relative;
-  
-    width: 84.3rem;
-    height: 42rem;
-    z-index: -1;
-   
-
-}
-
-
-
-.text{
- position: relative;
-/* top:1em; */
-left: 8em;
-top: 1.5em;
-color: white;
-font-size: 45px;
-height: 54px;
-/* width: 54EM; */
-padding-bottom: 100%;
-display: flex;
-flex-direction: row; 
-z-index: 1;
-font-weight: bolder;
-
-
-
-}
-
-
-.thirdbg{
-    background-color: rgb(37, 36, 36);
-    height: 700px;
-    width: 1349px;
-    background: url(razer-kiyo-pro-ultra-hero-desktop.jpg);
-    border-bottom: 12px solid rgb(53, 51, 51);
-    z-index: -1;
-}
-
-    
-
-
-
-.car{
-
-   background: url("razer-enki-pro-automobili-lamborghini-hero-desktop.jpg");
-   background-color: rgb(37, 36, 36);
-   height: 700px;
-   width: 1349px;
-
-   border-bottom: 12px solid rgb(53, 51, 51);
-   z-index: -1;
-   position: relative;
-   
-   line-height: 9;
-   
-   
-}
-.undercar{
-    z-index: 1;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 48px;
-    font-weight: BOLDER;
-    line-height: 3px;
-    position: relative;
-    top: 40PX;
-    left:8em;
-}
-
-
-
-.bgg{
-    background-color: red;
-    height: 20EM;
-    width: 100%;
-  background-repeat: no-repeat;
-  border-bottom: 12px solid #353333;
-    /* background: url("razer-wolverine-v2-pro-hyperspeed-wireless-desktop.jpg");
-    background-color: rgb(223, 21, 21);
-    background-color: #44d62c;
-    height:100%;
-    width: 100%; */
-    display: inline-block;
- 
-   /* background-repeat: no-repeat;
-    border-bottom: 12px solid rgb(53, 51, 51);
-    z-index: -1;
-    position: relative;
-     */
-    /* line-height: 2; */
-    
-}
 .headphone{
-background: url("razer-wolverine-v2-pro-hyperspeed-wireless-desktop.jpg");
-/* background-color: rgb(223, 21, 21); */
-display: inline-block;
-height:100%;
-width: 50%;
-border-left: 12px solid rgb(53, 51, 51);
-}
-
-.spex{
-    /* border-bottom: 12px solid rgb(53, 51, 51); */
-    /* background: url("razer-wolverine-v2-pro-hyperspeed-wireless-desktop.jpg"); */
-    /* display: inline-block; */
-    height: 700px;
-    width: 560px;
-    z-index: 1;
+    position:absolute;
+    top: 10rem;
+    /* bottom: m; */
+    left: 22em;
     color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 28px;
-    font-weight: BOLDER;
-    /* line-height: 3px; */
+    font-weight: bold;
+    /* font-size: 22px; */
+   
+}
+.subtitle{
     position: relative;
-    top: 40PX;
-    left:1PX;
-  
-    /* border-bottom: 12px solid rgb(53, 51, 51);
-    border-right: 12px solid rgb(53, 51, 51); */
-    
-}
-.niche{
-/* position: relative; */
-/* line-break: 2; */
-right: 55
-}
+    top: 1rem;
+    left: 4em;
 
- 
- .mou{
-    background: url("spe.jpg");
-    width: 50%;
-    height: 10 0%; 
-    /* border-bottom: 12px solid #353333; */
+}
+.CAMERA{
+    position: absolute;
+    top: 60rem;
+    /* bottom: 28em; */
+    left: 22em;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.subtitle2{
+    font-weight: lighter;
+}
+.ultra{
+    font-size: 4em;
+    position: relative;
+    bottom: 39px;
+}
+.largest{
+    position: relative;
+   bottom: 1em;
+    left: 4em;
+    font-size: 22px;
+ }
+.EDGE{
+    position: relative;
+    /* color: white; */
+    font-weight: bold;
+    margin-left: 6rem;
+} 
+
+.red{
+    position: relative;
+    /* top: 182em; */
+    bottom: 29em;
+    left: 11em;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
     display: inline-block;
-    /* height: 44rem;
-    width: 30em; */
-    /* position: relative; */
-    left: 35em;
-    float: right;
-  
-    /* border-bottom: 12px solid rgb(53, 51, 51); */
-    /* border-right: 12px solid rgb(53, 51, 51); */
-    /* border-left: 12px solid rgb(53, 51, 51); */
- }
-
- /* .bgg{
-    background: color #353333 ; */
- 
- .mobo{
-    background-color: rgb(37, 36, 36);
-    /* height: 32em;
-    width: 42em; */
-    /* background: url(images.jpg); 
-    background-repeat: no-repeat; */
-    border-bottom: 12px solid rgb(53, 51, 51);
-    display: inline-block;
-  
-    border-bottom: 12px solid rgb(53, 51, 51);
- }
- .mobo img{
-    width: 84.3rem;
-    height: 33rem;
-
- }
- .front{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 48px;
-    font-weight: BOLDER;
-    line-height: 3px;
+}
+.EDITION{
     position: relative;
-    top: 40PX;
-    left: 7em;
-
- }
- .underfront{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 35px;
-    font-weight: normal;
-    line-height: 1px;
+  bottom: 2EM;
+    left: 2em;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.right-grid{
     position: relative;
-    top: 50px;
-    right: 18em;
- }
-
- .underrazer{
+    /* top: 22rem; */
     color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 25px;
-    font-weight: normal;
-    line-height: 1px;
+    bottom: 29rem;
+    left: 11rem;
+    font-weight: bold;
+}
+/* .learnmore3{
     position: relative;
-    top: 75PX;
-    right: 28em;
- }
-
- .qq{
-    z-index: 1;
+    bottom: 9rem;
+    left: 11em;
+}
+.buy3{
+    position: relative;
+    bottom: 9rem;
+    left: 12em;
+} */
+.link-div{
+    position: relative;
+    top: 0rem;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+.bg-black{
     color: white;
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    /* font-size: medium; */
-    /* color: #f4f4f4;  */
-    margin: 0 auto;
-    font-size: 35px;
-    font-weight: normal;
-    line-height: 1px;
+    padding: 13px;
+    width: 101%;
     position: relative;
-    top: 50px;
-    right: 19em;
-    
+   left: 0.4px;
+}
 
- }
+
+.img-responsive{
+    background-color: rgb(82, 80, 80);
+    padding: 13px;
+    width: 103%;
+    position: relative;
+    right: 12px;
+}
+
+.center-align{
+    margin-left: 15rem;
+}
