@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    border: 2px solid red;
 }
 .headphone{
     position:absolute;
@@ -85,7 +86,7 @@ body{
 .bg-black{
     color: white;
     padding: 13px;
-    width: 101%;
+    width: 100%;
     position: relative;
    left: 0.4px;
 }
@@ -107,6 +108,7 @@ body{
     margin-left: 10rem;
 }
 .center-align3{
+    flex-direction: row;
     margin-left: 11rem;
 }
 .left-grid{
@@ -129,4 +131,136 @@ body{
 }
 .LAPTOP-TOP{
     left: 23em;
+}
+.fs{
+    font-size: 22.7px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .small-laptop{
+        left: 0;
+    }
+    .LAPTOP-TOP{
+        left: 5rem;
+    }
+    .headphone{
+        left: 5rem;
+    }
+    .subtitle{
+        left: 3rem;
+    }
+    .center-align{
+        margin-left: 11rem;
+    }
+    .CAMERA{
+        left: 5rem;
+        font-size: 0.7rem;
+    }
+    .red{
+        bottom: 30em;
+        left: 11em;
+    }
+    .left-grid {
+        bottom: 20em;
+        left: 1em;
+    }
+    .right-grid{
+        bottom: 20rem;
+        left: 1rem;
+    }
+    .subtitle3 p{
+        font-size: 14px;
+    }
+    .ANDROID{
+        position: relative;
+        left: 1rem;
+    }
+    .console{
+        left: 8rem;
+        /* font-size: 3rem; */
+    }
+    .ultra{
+        font-size: 3rem;
+    }
+    .subtitle2{
+        left: 7rem;
+    }
+    .res-sub{
+        left: 6rem;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+
+    .small-laptop{
+        height: 7rem;
+        width: 18rem;
+        position: relative;
+        top: 23rem;
+    }
+    .LAPTOP-TOP{
+        left: 0rem;
+    }
+    .headphone{
+        left: 0rem;
+    }
+    .fs{
+        font-size: 16px;
+    }
+    .subtitle{
+        left: 3rem;
+    }
+    .center-align3{
+        flex-direction: column;
+        margin-left: 6rem;
+
+    }
+    .center-align{
+        margin-left:2rem ;;
+    }
+    .link-div{
+        gap: 0;
+        font-size: 8px;
+
+    }
+    .CAMERA{
+        left: 5rem;
+        font-size: 0.7rem;
+    }
+    .red{
+        bottom: 30em;
+        left: 11em;
+    }
+    .left-grid {
+        bottom: 20em;
+        left: 1em;
+    }
+    .right-grid{
+        bottom: 20rem;
+        left: 1rem;
+    }
+    .subtitle3 p{
+        font-size: 14px;
+    }
+    .ANDROID{
+        position: relative;
+        left: 1rem;
+    }
+    .console{
+        left: 4rem;
+        /* font-size: 3rem; */
+    }
+    .largest{
+        font-size: 10px;
+    }
+    .ultra{
+        font-size: 1rem;
+    }
+    .subtitle2{
+        left: 1rem;
+    }
+    .res-sub{
+        left: 2rem;
+    }
 }
